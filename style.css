@@ -1,7 +1,4 @@
-@font-face {
-    font-family: SF Pro Rounded Regular;
-    src: url(SF_Pro_Rounded_Regular.ttf);
- }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
     background-color: darkslategrey;
