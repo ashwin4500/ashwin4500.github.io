@@ -1,5 +1,9 @@
 body {
     background-color: darkslategrey;
+    @font-face {
+        font-family: SF Pro Rounded Regular;
+        src: url(SF Pro Rounded Regular.ttf);
+     }
 }
 
 h1 {
