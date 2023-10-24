@@ -1,12 +1,14 @@
+@font-face {
+    font-family: SF Pro Rounded Regular;
+    src: url(SF_Pro_Rounded_Regular.ttf);
+ }
+
 body {
     background-color: darkslategrey;
-    @font-face {
-        font-family: SF Pro Rounded Regular;
-        src: url(SF Pro Rounded Regular.ttf);
-     }
 }
 
 h1 {
+    font-family: SF Pro Rounded Regular;
     color: chartreuse;
 }
 
