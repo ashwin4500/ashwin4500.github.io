@@ -16,8 +16,8 @@ h1 {
 }
 
 p1 {
-    color: blue;
-    font-size: 50px;
+    color: black;
+    font-size: 25px;
 }
 
 ul {
@@ -65,19 +65,22 @@ li a:hover {
     border-radius: 20px;
 }
 
-.Music {
-    top: 370px;
-    width: 1490px;
-	height: 500px;
+.First {
+    background-color: rgb(248, 245, 238);
+    width: 1470px;
+	height: 250px;
     overflow: hidden;
+    padding: 10px;
     margin: 15px;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
-.spoti {
-    width: 101.6%;
-    height: 100%;
-    border: none;
-    border-radius: 20px;
+.Second {
+    background-color: rgb(248, 245, 238);
+    width: 1470px;
+	height: 250px;
     overflow: hidden;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
 }
