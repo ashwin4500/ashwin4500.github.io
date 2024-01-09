@@ -52,8 +52,7 @@ li a:hover {
     height: 10%;
     border-radius: 25px;
     padding: 7px;
-    margin-top: 3px;
-    margin-left: 28px;
+    margin: 0px 10px;
 }
 
 .Info {
