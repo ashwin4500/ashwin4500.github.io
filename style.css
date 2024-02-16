@@ -12,12 +12,27 @@ body {
 }
 
 h1 {
-    color: rgb(255, 0, 0);
+    color: rgb(211, 15, 76);
+    margin: 15px;
 }
 
 p1 {
     color: black;
     font-size: 25px;
+    margin: 10px;
+}
+
+p2 {
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.mejpg {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 15px;
 }
 
 ul {
@@ -63,6 +78,21 @@ li a:hover {
 .Info {
     background-color: rgb(248, 245, 238);
     width: 1470px;
+	height: 315px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.InfoTXT {
+    margin-left: 225px;
+    margin-top: -178px;
+}
+
+.Keuzevak {
+    background-color: rgb(248, 245, 238);
+    width: 1470px;
 	height: 250px;
     overflow: hidden;
     padding: 10px;
@@ -70,7 +100,17 @@ li a:hover {
     border-radius: 20px;
 }
 
-.Quooker {
+.Reflectie {
+    background-color: rgb(248, 245, 238);
+    width: 1470px;
+	height: 250px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.Reflectie_op_samenwerking {
     background-color: rgb(248, 245, 238);
     width: 1470px;
 	height: 250px;
@@ -89,3 +129,25 @@ li a:hover {
     margin: 15px;
     border-radius: 20px;
 }
+
+.Externe_activiteiten {
+    background-color: rgb(248, 245, 238);
+    width: 1470px;
+	height: 250px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.Compententies {
+    background-color: rgb(248, 245, 238);
+    width: 1470px;
+	height: 250px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+
