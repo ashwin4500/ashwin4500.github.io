@@ -204,6 +204,22 @@ ul {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.PPTX:link {
+  background-color: rgb(211, 15, 76);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.PPTX:hover {
+  background-color: rgb(171, 15, 76);
+  color: yellow;
+}
+
 .Externe_activiteiten {
     background-color: rgb(248, 245, 238);
     width: 1450px;
