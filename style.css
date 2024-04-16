@@ -132,6 +132,12 @@ body {
 .Name-2 {
     margin-top: 10px; /* Add some space between Name and Name-1/Name-2 */
 }
+p3 {
+    font-size: calc(4vw + 10px); /* Auto-scale font size */
+}
+p4 {
+    font-size: calc(1.5vw + 10px); /* Auto-scale font size */
+}
 
 @media (max-width: 768px) {
     .Info {
@@ -146,22 +152,14 @@ body {
     .Name-2 {
         margin-top: 5px; /* Reduce space between Name and Name-1/Name-2 */
     }
+
+    p3 {
+        font-size: calc(2vw + 5px); /* Adjust font size for smaller screens */
+    }
+    p4 {
+        font-size: calc(0.75vw + 10px); /* Auto-scale font size */
+    }
 }
-
-
-
-/*
-.Info {
-    background-color: rgb(248, 245, 238);
-    width: auto;
-	height: 315px;
-    overflow: hidden;
-    padding: 20px;
-    margin: 1%;
-    border-radius: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-*/
 
 .Home-page-txt {
     background-color: rgb(248, 245, 238);
