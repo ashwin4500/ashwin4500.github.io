@@ -44,73 +44,68 @@ p3 {
     font-size: 25px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
-  
-ul {
-    list-style-type: none;
-    width: 98%;
-    height: 4%;
-    margin: 15px;
-    padding: 0px;
-    overflow: hidden;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
     background-color: rgb(211, 15, 76);
+    overflow: hidden;
+    margin: 1%;
+    padding: 5px;
     border-radius: 25px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a, .dropbtn {
-    display: inline-block;
+}
+
+.logo {
+    float: left;
     color: white;
-    text-align: center;
-    padding: 12px 20px;
-    text-decoration: none;
-  }
-  
-  li a:hover, .dropdown:hover .dropbtn {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.menu-button {
+    float: right;
     background-color: rgb(211, 15, 76);
-  }
-  
-  li.dropdown {
-    display: inline-block;
-  }
-  
-  .dropdown-content {
+    border-radius: 25px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
-    right: 20px;
+    top: 9%;
+    right: 1%;
     background-color: rgb(211, 15, 76);
-    min-width: 100px;
+    border-radius: 20px;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-radius: 25px;
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: center;
-    border-radius: 25px;
-  }
-  
-  .dropdown-content a:hover {background-color: rgb(171, 15, 76);}
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(211, 15, 76);
+    color: black;
+    border-radius: 20px;
+}
+
+.show {
     display: block;
-  }
-
-.logo {
-    margin: 6px 20px 0px 20px;
 }
 
-.HR-logo {
-    width: 2%;
-    height: 1%;
-}
 
 .mejpg {
     width: 250px;
@@ -122,11 +117,11 @@ ul {
 
 .Info {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
+    width: auto;
 	height: 315px;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -151,55 +146,55 @@ ul {
 
 .Home-page-txt {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
-	height: 900px;
+    width: auto;
+	height: auto;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .Keuzevak {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
-	height: 400px;
+    width: auto;
+	height: auto;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .Reflectie {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
-	height: 250px;
+    width: auto;
+	height: auto;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .Reflectie_op_samenwerking {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
-	height: 550px;
+    width: auto;
+	height: auto;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .Presentatie {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
-	height: 250px;
+    width: auto;
+	height: auto;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -222,22 +217,22 @@ ul {
 
 .Externe_activiteiten {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
-	height: 450px;
+    width: auto;
+	height: auto;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .Compententies {
     background-color: rgb(248, 245, 238);
-    width: 1450px;
-	height: 400px;
+    width: auto;
+	height: auto;
     overflow: hidden;
     padding: 20px;
-    margin: 15px;
+    margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }

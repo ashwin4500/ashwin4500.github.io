@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashwin PI website</title>
-    <link href="style.css" type="text/css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-    <body>
-        
-        <ul>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Menu</a>
-                <div class="dropdown-content">
-                <a href="index.html">Home</a>
-                <a href="keuzevak.html">Keuzevak</a>
-                <a href="reflectie.html">Reflectie</a>
-                <a href="presentatie.html">Presentatie</a>
-                <a href="reflectie_op_samenwerking.html">Reflectie op <br> samenwerking</a>
-                <a href="externe_activiteiten.html">Externe activiteiten</a>
-                <a href="compententies.html">Compententies</a>
-                </div>
-            </li>
-            <div class="logo"><img class="HR-logo" src="HR-logo.png" alt="HR logo"></div>
-        </ul>
+    <nav class="navbar">
+        <div class="logo">PIE10</div>
+        <button class="menu-button" onclick="toggleDropdown()">Menu</button>
+        <div class="dropdown-content" id="dropdownContent">
+            <a href="index.html">Home</a>
+            <a href="keuzevak.html">Keuzevak</a>
+            <a href="reflectie.html">Reflectie</a>
+            <a href="presentatie.html">Presentatie</a>
+            <a href="reflectie_op_samenwerking.html">Reflectie op <br> samenwerking</a>
+            <a href="externe_activiteiten.html">Externe activiteiten</a>
+            <a href="compententies.html">Compententies</a>
+        </div>
+    </nav>
 
         <div class="pageH-text">
             <h2>Keuzevak</h2>
