@@ -147,13 +147,16 @@ body {
 }
 
 .pageH-text {
-    width: auto;
-    height: auto;
-    margin: 1%;
-    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Set height to 100% of viewport height */
+}
+
+.pageH-text h2 {
+    font-size: calc(4vw + 20px); /* Scale font size based on viewport width */
+    text-align: center; /* Center-align text */
     color: rgb(211, 15, 76);
-    font-size: 400%;
-    text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
