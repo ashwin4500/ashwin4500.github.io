@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: rgb(255, 240, 226);
+    background-color: rgb(0, 26, 61);
     font-family: Sans-serif;
     overflow-y: scroll;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: rgb(211, 15, 76);
+    color: rgb(255, 226, 111);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
@@ -25,14 +25,30 @@ p1 {
 }
 
 p2 {
-    color: black;
+    color: rgb(23, 241, 224);
     font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 p3 {
-    color: black;
+    color: rgb(79, 193, 255);
     font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+p5 {
+    color: rgb(0, 36, 81);
+}
+
+p6 {
+    color: rgb(255, 226, 111);
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+p7 {
+    color: rgb(138, 233, 253);
+    font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
@@ -42,7 +58,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(211, 15, 76);
+    background-color: rgb(0, 36, 81);
     overflow: hidden;
     margin: 1%;
     padding: 5px;
@@ -52,16 +68,16 @@ body {
 
 .logo {
     float: left;
-    color: white;
+    color: rgb(255, 226, 111);
     padding: 10px 20px;
     font-size: 15px;
 }
 
 .menu-button {
     float: right;
-    background-color: rgb(211, 15, 76);
+    background-color: rgb(0, 36, 81);
     border-radius: 25px;
-    color: white;
+    color: rgb(255, 226, 111);
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -73,7 +89,7 @@ body {
     position: absolute;
     top: 9%;
     right: 1%;
-    background-color: rgb(211, 15, 76);
+    background-color: rgb(0, 36, 81);
     border-radius: 20px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -81,15 +97,15 @@ body {
 }
 
 .dropdown-content a {
-    color: white;
+    color: rgb(255, 226, 111);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(211, 15, 76);
-    color: black;
+    background-color: rgb(0, 26, 61);
+    color: rgb(251, 232, 179);
     border-radius: 20px;
 }
 
@@ -105,7 +121,7 @@ body {
     align-items: center; /* Center items horizontally */
     text-align: center;
     height: 550px; /* Set a specific height */
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     margin: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -137,6 +153,7 @@ p3 {
 }
 p4 {
     font-size: calc(1.5vw + 10px); /* Auto-scale font size */
+    color: rgb(79, 193, 255);
 }
 
 @media (max-width: 768px) {
@@ -162,7 +179,7 @@ p4 {
 }
 
 .Home-page-txt {
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     width: auto;
 	height: auto;
     overflow: hidden;
@@ -182,12 +199,12 @@ p4 {
 .pageH-text h2 {
     font-size: calc(4vw + 20px); /* Scale font size based on viewport width */
     text-align: center; /* Center-align text */
-    color: rgb(211, 15, 76);
+    color: rgb(79, 193, 255);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .Keuzevak {
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     width: auto;
 	height: auto;
     overflow: hidden;
@@ -198,7 +215,7 @@ p4 {
 }
 
 .Reflectie {
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     width: auto;
 	height: auto;
     overflow: hidden;
@@ -209,7 +226,7 @@ p4 {
 }
 
 .Reflectie_op_samenwerking {
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     width: auto;
 	height: auto;
     overflow: hidden;
@@ -219,8 +236,16 @@ p4 {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.linktext {
+    color:rgb(255, 226, 111);
+  }
+
+.linktext:hover {
+color:rgb(251, 232, 179);
+}
+
 .Presentatie {
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     width: auto;
 	height: auto;
     overflow: hidden;
@@ -231,8 +256,8 @@ p4 {
 }
 
 .PPTX:link {
-  background-color: rgb(211, 15, 76);
-  color: white;
+  background-color: rgb(89, 64, 141);
+  color: rgb(255, 226, 111);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -242,12 +267,12 @@ p4 {
 }
 
 .PPTX:hover {
-  background-color: rgb(171, 15, 76);
-  color: yellow;
+  background-color: rgb(0, 26, 61);
+  color: rgb(251, 232, 179);
 }
 
 .Externe_activiteiten {
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     width: auto;
 	height: auto;
     overflow: hidden;
@@ -258,7 +283,7 @@ p4 {
 }
 
 .Compententies {
-    background-color: rgb(248, 245, 238);
+    background-color: rgb(0, 36, 81);
     width: auto;
 	height: auto;
     overflow: hidden;
