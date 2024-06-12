@@ -1,5 +1,12 @@
 function showAlert() {
-    alert("For best experience use a desktop!");
+    // Check if the alert has already been shown in this session
+    if (!sessionStorage.getItem('alertShown')) {
+        // Show the alert
+        alert("For best experience use a desktop!");
+
+        // Set a flag in sessionStorage indicating the alert has been shown
+        sessionStorage.setItem('alertShown', 'true');
+    }
 }
 
 function toggleDropdown() {
@@ -18,4 +25,3 @@ window.onclick = function(event) {
         }
     }
 }
-
