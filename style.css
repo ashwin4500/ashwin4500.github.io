@@ -37,7 +37,7 @@ p3 {
 }
 
 p5 {
-    color: rgb(0, 36, 81);
+    color: rgb(0, 36, 81); /* create a larger blank space */
 }
 
 p6 {
@@ -195,6 +195,56 @@ body {
     .Name-text {
         margin: 0; /* Ensure no extra margin */
     }
+
+    .Externe_activiteiten {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .activity-text {
+        max-width: 100%; /* Allow text to use full width */
+        text-align: center; /* Center the text for better readability */
+    }
+
+    .activity-image-container {
+        max-width: 90%; /* Make the image container wider on smaller screens */
+        margin: 0 0 20px 0; /* Margin below the image */
+    }
+
+    .activity-image {
+        width: 100%; /* Make the image fill the container */
+    }
+
+    .presentation-content {
+        flex-direction: column; /* Stack text and image vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .presentation-text {
+        max-width: 100%; /* Allow text to use full width */
+        text-align: center; /* Center the text */
+    }
+
+    .presentation-image-container {
+        max-width: 90%; /* Make image container wider on small screens */
+        margin: 20px 0; /* Margin above and below image */
+    }
+
+    .presentation-image {
+        width: 100%; /* Make the image fill its container */
+    }
+
+    .pptx-link {
+        margin-top: 20px; /* Add space above the PPTX link */
+    }
+
+    .keuzevak-image {
+        width: 30%; /* Ensure images fit within the container */
+    }
+
+    .keuzevak-image2 {
+        width: 20%; /* Ensure images fit within the container */
+    }
 }
 
 .Home-page-txt {
@@ -224,13 +274,41 @@ body {
 
 .Keuzevak {
     background-color: rgb(0, 36, 81);
-    width: auto;
-	height: auto;
-    overflow: hidden;
     padding: 20px;
     margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Keuzevak p2 {
+    color: rgb(23, 241, 224);
+    font-size: 19px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    line-height: 1.6;
+}
+
+.Keuzevak p6 {
+    color: rgb(255, 226, 111);
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.keuzevak-image {
+    width: 30%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Space above the image */
+    margin-bottom: 0px; /* Space below the image */
+    border-radius: 20px; /* Slightly rounded corners */
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2); /* Add a subtle shadow */
+}
+
+.keuzevak-image2 {
+    width: 20%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Space above the image */
+    margin-bottom: 0px; /* Space below the image */
+    border-radius: 20px; /* Slightly rounded corners */
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2); /* Add a subtle shadow */
 }
 
 .Reflectie {
@@ -265,13 +343,43 @@ color:rgb(251, 232, 179);
 
 .Presentatie {
     background-color: rgb(0, 36, 81);
-    width: auto;
-	height: auto;
-    overflow: hidden;
     padding: 20px;
     margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.presentation-content {
+    display: flex; /* Align text and image side by side */
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: space-between; /* Space items evenly */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.presentation-text {
+    max-width: 50%; /* Limit the width of the text */
+    color: rgb(23, 241, 224);
+    font-size: 19px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    line-height: 1.6; /* Improve readability */
+}
+
+.presentation-image-container {
+    max-width: 40%; /* Limit the width of the image container */
+    text-align: center; /* Center-align image and caption */
+    margin-left: 20px; /* Space between text and image */
+}
+
+.presentation-image {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.image-caption {
+    font-size: 0.9em; /* Slightly smaller font for the caption */
+    color: rgb(200, 200, 200); /* Light color for the caption */
+    margin-top: 10px; /* Space between image and caption */
 }
 
 .PPTX:link {
@@ -291,14 +399,44 @@ color:rgb(251, 232, 179);
 }
 
 .Externe_activiteiten {
+    display: flex; /* Use flexbox to align items */
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: space-between; /* Space items evenly */
+    align-items: flex-start; /* Align items to the top */
     background-color: rgb(0, 36, 81);
     width: auto;
-	height: auto;
+    height: auto;
     overflow: hidden;
     padding: 20px;
     margin: 1%;
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.activity-text {
+    max-width: 50%; /* Limit the text container's width */
+    color: rgb(23, 241, 224);
+    font-size: 19px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    line-height: 1.6; /* Better readability */
+}
+
+.activity-image-container {
+    max-width: 50%; /* Limit the width of the image container */
+    text-align: center; /* Center the image and caption */
+    margin-left: 20px; /* Space between text and image */
+}
+
+.activity-image {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.image-caption {
+    font-size: 0.9em; /* Slightly smaller font for the caption */
+    color: rgb(255, 226, 111); /* Lighter color for the caption */
+    margin-top: 10px; /* Space between the image and the caption */
 }
 
 .Compententies {
