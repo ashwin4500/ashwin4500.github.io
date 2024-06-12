@@ -113,68 +113,85 @@ body {
     display: block;
 }
 
-
 .Info {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: space-between; /* Distribute space vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center;
-    height: 550px; /* Set a specific height */
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: space-between; /* Space out items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: left; /* Align text to the left */
+    height: auto; /* Adjust height to fit content */
     background-color: rgb(0, 36, 81);
     margin: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1%; /* Combine padding-top and padding-bottom */
     border-radius: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
 }
 
 .mejpg {
-    max-width: 300px; /* Set max width for the image */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Make the image round */
+    width: auto; /* Set a fixed width for the image */
+    height: auto; /* Set a fixed height for the image */
+    border-radius: 20px; /* Make the image round */
+    margin-right: 20px; /* Add space between the image and the text */
 }
 
 .Names {
-    flex: 1; /* Let the name elements take up remaining space */
-    display: flex; /* Use flexbox to align items */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: flex-end; /* Align items to the right */
+    display: flex;
+    flex-direction: column; /* Stack name items vertically */
+    justify-content: center; /* Center vertically within the container */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Align text to the left */
+    padding-right: 200px;
+}
+
+.Name {
+    font-size: calc(2vw + 90px); /* Adjust to fit the content size */
+    font-weight: bold;
+    color: white;
 }
 
 .Name-1,
 .Name-2 {
-    margin-top: 10px; /* Add some space between Name and Name-1/Name-2 */
+    font-size: calc(1.2vw + 8px); /* Slightly smaller for subtexts */
+    color: white;
+    margin-top: 5px; /* Add some space between lines */
 }
-p3 {
-    font-size: calc(4vw + 10px); /* Auto-scale font size */
-}
-p4 {
-    font-size: calc(1.5vw + 10px); /* Auto-scale font size */
-    color: rgb(79, 193, 255);
+
+.Name-text {
+    margin: 10px; /* Remove default margin */
 }
 
 @media (max-width: 768px) {
     .Info {
-        height: auto; /* Auto height for smaller screens */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text for better readability */
+        padding: 2%; /* Add padding for small screens */
+    }
+
+    .mejpg {
+        width: 100px; /* Reduce the size of the image for smaller screens */
+        height: 100px; /* Maintain aspect ratio */
+        margin: 0 0 15px 0; /* Add margin below the image */
     }
 
     .Names {
-        align-items: center; /* Center items horizontally on smaller screens */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text inside the container */
+    }
+
+    .Name {
+        font-size: calc(3vw + 5px); /* Adjust font size for the main name */
+        margin-top: 10px; /* Add space above for better spacing */
     }
 
     .Name-1,
     .Name-2 {
-        margin-top: 5px; /* Reduce space between Name and Name-1/Name-2 */
+        font-size: calc(2vw + 5px); /* Adjust font size for smaller texts */
+        margin-top: 5px; /* Reduce space between the lines */
     }
 
-    p3 {
-        font-size: calc(2vw + 5px); /* Adjust font size for smaller screens */
-    }
-    p4 {
-        font-size: calc(0.75vw + 10px); /* Auto-scale font size */
+    .Name-text {
+        margin: 0; /* Ensure no extra margin */
     }
 }
 
