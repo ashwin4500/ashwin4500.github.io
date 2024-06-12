@@ -170,9 +170,9 @@ body {
     }
 
     .mejpg {
-        width: 100px; /* Reduce the size of the image for smaller screens */
-        height: 100px; /* Maintain aspect ratio */
-        margin: 0 0 15px 0; /* Add margin below the image */
+        width: 75%; /* Reduce the size of the image for smaller screens */
+        height: 75%; /* Maintain aspect ratio */
+        margin: 0 0 5px 0; /* Add margin below the image */
     }
 
     .Names {
