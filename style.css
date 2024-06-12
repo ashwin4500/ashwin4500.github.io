@@ -116,7 +116,7 @@ body {
 .Info {
     display: flex;
     flex-direction: row; /* Arrange items horizontally */
-    justify-content: space-between; /* Space out items horizontally */
+    justify-content: flex-start; /* Align items to the start */
     align-items: center; /* Center items vertically */
     text-align: left; /* Align text to the left */
     height: auto; /* Adjust height to fit content */
@@ -130,8 +130,8 @@ body {
 .mejpg {
     width: auto; /* Set a fixed width for the image */
     height: auto; /* Set a fixed height for the image */
-    border-radius: 20px; /* Make the image round */
-    margin-right: 20px; /* Add space between the image and the text */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 10px; /* Reduce space between the image and the text */
 }
 
 .Names {
@@ -140,26 +140,27 @@ body {
     justify-content: center; /* Center vertically within the container */
     align-items: flex-start; /* Align items to the left */
     text-align: left; /* Align text to the left */
-    padding-right: 200px;
+    margin-left: 100px; /* Move Names slightly to the left */
 }
 
 .Name {
-    font-size: calc(2vw + 90px); /* Adjust to fit the content size */
+    font-size: calc(2vw + 100px); /* Adjust to fit the content size */
     font-weight: bold;
-    color: white;
+    color: rgb(79, 193, 255);
 }
 
 .Name-1,
 .Name-2 {
     font-size: calc(1.2vw + 8px); /* Slightly smaller for subtexts */
-    color: white;
+    color: rgb(79, 193, 255);
     margin-top: 5px; /* Add some space between lines */
 }
 
 .Name-text {
-    margin: 10px; /* Remove default margin */
+    margin: 0; /* Remove default margin */
 }
 
+/* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
     .Info {
         flex-direction: column; /* Stack items vertically */
@@ -177,6 +178,7 @@ body {
     .Names {
         align-items: center; /* Center items horizontally */
         text-align: center; /* Center text inside the container */
+        margin-left: 0; /* Reset margin for smaller screens */
     }
 
     .Name {
