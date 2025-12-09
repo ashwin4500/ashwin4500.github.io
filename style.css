@@ -1,3 +1,9 @@
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
 
 body {
@@ -57,61 +63,73 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* NAVBAR */
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(0, 36, 81);
-    overflow: hidden;
-    margin: 1%;
-    padding: 5px;
-    border-radius: 25px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.logo {
-    float: left;
-    color: rgb(255, 226, 111);
     padding: 10px 20px;
-    font-size: 15px;
+    margin: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.nav-left {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 226, 111);
+}
+.nav-right {
+    position: relative;
 }
 
-.menu-button {
-    float: right;
-    background-color: rgb(0, 36, 81);
-    border-radius: 25px;
+/* DROPDOWN */
+.dropdown-btn {
+    background: rgb(0, 36, 81);
     color: rgb(255, 226, 111);
     border: none;
-    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 15px;
+    padding: 8px 12px;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 9%;
-    right: 1%;
-    background-color: rgb(0, 36, 81);
+    right: 0;
+    background: rgb(0, 36, 81);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    min-width: 150px;
     border-radius: 20px;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
-
 .dropdown-content a {
-    color: rgb(255, 226, 111);
-    padding: 12px 16px;
-    text-decoration: none;
     display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 226, 111);
 }
-
 .dropdown-content a:hover {
     background-color: rgb(0, 26, 61);
     color: rgb(251, 232, 179);
     border-radius: 20px;
 }
 
-.show {
+/* Show on hover */
+.dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* NEW HOME PAGE EMPTY BOX */
+.Home-page-info {
+    background-color: rgb(0, 36, 81);
+    width: auto;
+	height: auto;
+    overflow: hidden;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
 
 .Info {
     display: flex;
