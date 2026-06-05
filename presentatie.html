@@ -1,56 +1,42 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashwin PI website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentatie – Ashwin PI Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="nav-left">Ashwin PI website</div>
-        <div class="nav-right">
-            <div class="dropdown">
-                <button class="dropdown-btn">Menu ▾</button>
-                <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="pie.html">PIE</a>
-                    <a href="compententies.html">Competenties</a>
-                    <a href="externe_activiteiten.html">Externe Activiteiten</a>
-                    <a href="keuzevak.html">Keuzevak</a>
-                    <a href="presentatie.html">Presentatie</a>
-                    <a href="reflectie.html">Reflectie</a>
-                    <a href="reflectie_op_samenwerking.html">Samenwerking</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+<nav class="navbar" aria-label="Hoofdnavigatie">
+  <a class="brand-dot" href="index.html" aria-label="Home">A</a>
+  <div class="nav-links">
+    <a href="index.html" data-label="Home"><span>H</span></a>
+    <a href="pie.html" data-label="PIE"><span>P</span></a>
+    <a href="compententies.html" data-label="Competenties"><span>C</span></a>
+    <a href="externe_activiteiten.html" data-label="Externe activiteiten"><span>E</span></a>
+    <a href="keuzevak.html" data-label="Keuzevak"><span>K</span></a>
+    <a href="presentatie.html" data-label="Presentatie"><span>Pr</span></a>
+    <a href="reflectie.html" data-label="Reflectie"><span>R</span></a>
+    <a href="reflectie_op_samenwerking.html" data-label="Samenwerking"><span>S</span></a>
+  </div>
+</nav>
 
-    <div class="pageH-text">
-        <h2>Presentatie</h2>
-    </div>
-
-    <div class="Presentatie">
-        <div class="presentation-content">
-            <figure class="presentation-image-container">
-                <img src="terberg.jpg" alt="Terberg" class="presentation-image">
-                <figcaption class="image-caption">Bron: <a class="linktext" href="https://www.ajot.com/news/terberg-announces-a-new-generation-of-yard-tractors-for-all-drive-options">AJOT</a></figcaption>
-            </figure>
-            <div class="presentation-text">
-                <p>
-                    Het bedrijf Terberg is in 1869 opgericht door Johannes Bernadus Terberg. 
-                    Het bedrijf bouwde eerst militaire vrachtwagens om naar vrachtwagens voor de bouw in 1949, waarna zij in 1973 de eerste terminaltrekker uitbrachten. 
-                    In 2010 opende het bedrijf een vestiging in Rotterdam. Het bedrijf is nogsteeds actief bezig met vrachtwagen met het ontwikkelen, modificeren en produceren van nieuwe vrachtwagens. 
-                    Daarnaast is het bedrijf ook actief geweest met <a class="linktext" href="https://terberg.eu/projecten/">projecten</a> zoals <a class="linktext" href="https://terberg.eu/project/quookers-duurzame-groei/">Quooker</a> en <a class="linktext" href="https://terberg.eu/project/greenwhich-village-aan-de-haven/">Little C</a>.
-                </p>
-                <div class="pptx-link">
-                    <a class="PPTX" href="PIE10.pptx">Presentatie.pptx</a>
-                </div>
-            </div>
-        </div>
-    </div>
+  <main class="page-shell">
+    <header class="page-title"><h1>Presentatie</h1></header>
+    <section class="split-card">
+      <div>
+        <span class="kicker">Bedrijfspresentatie</span>
+        <h2>Terberg</h2>
+        <p>Het bedrijf Terberg is in 1869 opgericht door Johannes Bernadus Terberg. Het bedrijf bouwde eerst militaire vrachtwagens om naar vrachtwagens voor de bouw. In 1973 brachten zij de eerste terminaltrekker uit en in 2010 opende het bedrijf een vestiging in Rotterdam.</p>
+        <p>Het bedrijf is nog steeds actief bezig met het ontwikkelen, modificeren en produceren van nieuwe vrachtwagens. Daarnaast is Terberg actief geweest met projecten zoals Quooker en Little C.</p>
+        <a class="button-link" href="PIE10.pptx">Download presentatie</a>
+      </div>
+      <figure class="image-box">
+        <img src="terberg.jpg" alt="Terberg terminaltrekker">
+        <figcaption>Bron: AJOT</figcaption>
+      </figure>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>

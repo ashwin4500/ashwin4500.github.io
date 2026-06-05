@@ -1,66 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashwin PI website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keuzevak – Ashwin PI Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="nav-left">Ashwin PI website</div>
-        <div class="nav-right">
-            <div class="dropdown">
-                <button class="dropdown-btn">Menu ▾</button>
-                <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="pie.html">PIE</a>
-                    <a href="compententies.html">Competenties</a>
-                    <a href="externe_activiteiten.html">Externe Activiteiten</a>
-                    <a href="keuzevak.html">Keuzevak</a>
-                    <a href="presentatie.html">Presentatie</a>
-                    <a href="reflectie.html">Reflectie</a>
-                    <a href="reflectie_op_samenwerking.html">Samenwerking</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+<nav class="navbar" aria-label="Hoofdnavigatie">
+  <a class="brand-dot" href="index.html" aria-label="Home">A</a>
+  <div class="nav-links">
+    <a href="index.html" data-label="Home"><span>H</span></a>
+    <a href="pie.html" data-label="PIE"><span>P</span></a>
+    <a href="compententies.html" data-label="Competenties"><span>C</span></a>
+    <a href="externe_activiteiten.html" data-label="Externe activiteiten"><span>E</span></a>
+    <a href="keuzevak.html" data-label="Keuzevak"><span>K</span></a>
+    <a href="presentatie.html" data-label="Presentatie"><span>Pr</span></a>
+    <a href="reflectie.html" data-label="Reflectie"><span>R</span></a>
+    <a href="reflectie_op_samenwerking.html" data-label="Samenwerking"><span>S</span></a>
+  </div>
+</nav>
 
-    <div class="pageH-text">
-        <h2>Keuzevak</h2>
-    </div>
-
-    <div class="Keuzevak">
-        <!-- Keuzevak Huis en Hypotheek -->
-        <p6><b>Keuzevak Huis en Hypotheek:</b></p6><br>
-        <img src="huis.jpg" alt="Huis en Hypotheek" class="keuzevak-image"><br>
-        <figcaption class="image-caption">Bron: <a class="linktext" href="https://makelaar-westfriesland.nl/huis-verkopen/huis-verkopen-hypotheek/">makelaar-westfriesland</a></figcaption>
-        <br>
-        <p2>
-            Ik heb dit Keuzevak gekozen, omdat dit keuzevak handig is voor de toekomst als ik een huis ga kopen/huren.
-            Met de informatie die ik bij deze les mee krijg, kan ik later betere keuzes maken in het kopen of huren van een huis.
-            Ook snap ik de huizenmarkt later beter wat een groot voordeel levert bij het zoeken naar een huis.<br><br>
-            Ik heb geleerd wat er allemaal komt kijken bij het huren of kopen van huis en waarom de één handiger is dan de ander. 
-            Met deze informatie weet ik waarop ik moet letten en aan welke onderwerpen ik meer aandacht moet besteden dan de ander.
-        </p2>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!-- Keuzevak Vaarbewijs -->
-        <p6><b>Keuzevak Vaarbewijs:</b></p6><br>
-        <img src="vaarbewijs.jpg" alt="Vaarbewijs" class="keuzevak-image2"><br>
-        <figcaption class="image-caption">Bron: <a class="linktext" href="https://www.watersport-tv.nl/nw-31400-7-3697101/nieuws/klein_vaarbewijs_halen_met_vaarplezier.html">watersport-tv</a></figcaption>
-        <br>
-        <p2>
-            Ik heb dit Keuzevak gekozen, omdat het mij leuk lijkt om later een boot te kunnen besturen.
-            Zoals het vorige keuzevak is dit keuzevak ook handig voor de toekomst wanneer het van pas komt.<br><br>
-            Bij dit keuzevak heb ik geleerd het verschil tussen een groot en klein schip en waarop je moet letten bij deze schepen. 
-            Ook heb ik geleerd hoe het verkeer op het water gaat en hoe je veilig en voorbereid het water op kan gaan.
-        </p2>
-    </div>
+  <main class="page-shell">
+    <header class="page-title"><h1>Keuzevak</h1></header>
+    <section class="split-card">
+      <div>
+        <span class="kicker">Keuzevak 1</span>
+        <h2>Huis en Hypotheek</h2>
+        <p>Ik heb dit keuzevak gekozen omdat het handig is voor de toekomst als ik een huis ga kopen of huren. Met de informatie uit deze lessen kan ik later betere keuzes maken en snap ik de huizenmarkt beter.</p>
+        <p>Ik heb geleerd wat er komt kijken bij het huren of kopen van een huis en waarom de ene keuze soms handiger is dan de andere.</p>
+      </div>
+      <figure class="image-box">
+        <img src="huis.jpg" alt="Huis en hypotheek">
+        <figcaption>Bron: makelaar-westfriesland.nl</figcaption>
+      </figure>
+    </section>
+    <section class="split-card">
+      <div>
+        <span class="kicker">Keuzevak 2</span>
+        <h2>Vaarbewijs</h2>
+        <p>Ik heb dit keuzevak gekozen omdat het mij leuk lijkt om later een boot te kunnen besturen. Net als Huis en Hypotheek is dit keuzevak handig voor de toekomst.</p>
+        <p>Bij dit keuzevak heb ik geleerd wat het verschil is tussen een groot en klein schip, waar je op moet letten en hoe het verkeer op het water werkt.</p>
+      </div>
+      <figure class="image-box">
+        <img src="vaarbewijs.jpg" alt="Vaarbewijs">
+        <figcaption>Bron: watersport-tv.nl</figcaption>
+      </figure>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>

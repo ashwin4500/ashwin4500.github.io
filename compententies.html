@@ -1,117 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashwin PI website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competenties – Ashwin PI Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="nav-left">Ashwin PI website</div>
-        <div class="nav-right">
-            <div class="dropdown">
-                <button class="dropdown-btn">Menu ▾</button>
-                <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="pie.html">PIE</a>
-                    <a href="compententies.html">Competenties</a>
-                    <a href="externe_activiteiten.html">Externe Activiteiten</a>
-                    <a href="keuzevak.html">Keuzevak</a>
-                    <a href="presentatie.html">Presentatie</a>
-                    <a href="reflectie.html">Reflectie</a>
-                    <a href="reflectie_op_samenwerking.html">Samenwerking</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-        <div class="pageH-text">
-            <h2>Compententies</h2>
-        </div>
+<body>
+<nav class="navbar" aria-label="Hoofdnavigatie">
+  <a class="brand-dot" href="index.html" aria-label="Home">A</a>
+  <div class="nav-links">
+    <a href="index.html" data-label="Home"><span>H</span></a>
+    <a href="pie.html" data-label="PIE"><span>P</span></a>
+    <a href="compententies.html" data-label="Competenties"><span>C</span></a>
+    <a href="externe_activiteiten.html" data-label="Externe activiteiten"><span>E</span></a>
+    <a href="keuzevak.html" data-label="Keuzevak"><span>K</span></a>
+    <a href="presentatie.html" data-label="Presentatie"><span>Pr</span></a>
+    <a href="reflectie.html" data-label="Reflectie"><span>R</span></a>
+    <a href="reflectie_op_samenwerking.html" data-label="Samenwerking"><span>S</span></a>
+  </div>
+</nav>
 
-        <div class="Compententies">
-            <!-- <h1>Compententies</h1> -->
-                <p2>
-                    <p6><b>1. ANALYSEREN: </b></p6><br>
-                    Deze compententie heb ik sterk ontwikkeld bij PEE20. Hierbij was de uitdaging om de opdracht om te zetten naar ontwerpeisen. In het begin had ik daar veel moeite mee. 
-                    Na een paar keer proberen met feedback kan ik uiteindelijk een opdracht om zetten naar ontwerpeisen en deze verdelen in functionele- en niet-functionele eisen. 
-                    Hierbij gaat het niet altijd helemaal vlekkeloos en streef ik ook er naar om dit te verbeteren in de toekomst.
-                    <br><br>
-
-                    <p6><b>2. ONTWERPEN:</b></p6><br>
-                    Voor PEE10 moest ik een equalizer ontwerpen. De equalizer had bepaalde eisen waaraan deze moest voldoen. Deze eisen zijn al vastgesteld bij het onderzoeken. 
-                    Ook bij het onderzoeken zijn er naar potentiele circuits gekeken en daarbij één circuit uit gekomen. Dit circuit moeten we echter aanpassen om aan de eisen te kunnen voldoen. 
-                    Hierbij was het nodig om de weerstand en condensatoren waardes uit te rekenen voor elke filter en deze toe te passen in het circuit. <br>
-                    Vervolgens kunnen we deze circuit simuleren d.m.v. een programma namelijk LTspice. 
-                    Ook testen we vervolgens dit circuit door het op een breadboard te maken en deze aan te sluiten aan de functiegenerator en oscilloscoop. <br>
-                    Als de schakeling correct functioneert kan deze vervolgens op een developmentboard of PCB gesoldeerd worden. 
-                    Hierbij heb ik eerst een simpele tekening gemaakt hoe de verschillende componenten op een developmentboard of PCB passen. 
-                    Hierdoor kun je componenten verkeerd solderen voorkomen en zorgt het ook voor meer overzicht. <br>
-                    Als het circuit niet werkt dan onderzoeken we waar het fout gaat in de schakeling d.m.v. meten met oscilloscoop en dit te vergelijken met de simulaties. 
-                    Hierbij is het ook handig om rond te vragen voor hulp om het probleem zo efficient mogelijk op te kunnen lossen. 
-                    Eventueel moet er gezocht worden naar een nieuwe schakeling of één zelf ontwerpen, waarna je door weer alle stappen door heen gaat. <br>
-                    Ook is het nodig om de UI van de equalizer te ontwerpen zodat de gebruiker de equalizer kan gebruiken. Dit was simpel gedaan door aan te geven wanneer een potmeter op 0% of 100% stond. 
-                    Hierbij werd er gekeken naar wat het meest logische manier was om de gebruiker feebback te geven wanneer hij iets instelt.
-                    <br><br>
-                    
-                    <p6><b>3. REALISEREN:</b></p6><br>
-                    Na het analyseren, onderzoeken en ontwerpen van een unit is het tijd om deze te realiseren. Hierbij zijn de vorige drie processen erg belangrijk. 
-                    Als deze drie processen goed zijn verlopen en de unittest is geslaagd, is het tijd om de units te intergreren. Dit vergt veel teamwork en is communicatie erg belangrijk. 
-                    Als alle processen zijn geslaagd en de acceptatietest is behaald, heb je een opdracht succesvol gerealiseerd tot een product.
-                    <br><br>
-                    
-                    <p6><b>4. BEHEREN:</b></p6><br>
-                    Bij PEE20 was er hardware en software. 
-                    Bij het gedeelte software moest je je code bijhouden. 
-                    Dit kon je doen met een programma genaamd BitBucket. 
-                    Hiermee kan je je code uploaden naar een cloud waar je code vervolgens wordt opgeslagen. 
-                    Elke keer wanneer er een nieuwe stuk code aanwezig is kan je deze nieuwe stuk code committen naar de cloud waar vevolgens het programma zelf een "tijdlijn" aanmaakt. 
-                    Hiermee kun je zien hoe je code zich in de loop der tijd heeft ontwikkeld. 
-                    Door dit telkens te doen beheer je je code en kunnen anderen ook zien hoe je code is ontstaan of waar het mis ging. <br>
-                    (PS op deze manier is ook deze website gebouwd maar dan met GitHub)
-                    <br><br>
-                    
-                    <p6><b>5. MANAGEN:</b></p6><br>
-                    Tijdens PEE10 heb ik geleerd hoe ik een project moet managen. Dat was als eerste project een grote uitdaging, waarbij ik mensen moest aansturen en time managen. 
-                    Al hoewel de takenverdeling goed afliep, liep de planning minder goed. Met wat andere complicaties erbij zorgde dit ervoor dat het project uitliep op een herkansing. 
-                    In de weken tot aan de herkansing van de acceptatietest heb ik veel feedback gekregen hoe ik dit kon aanpakken. 
-                    Hierbij heb ik mijn fouten gezien en hiervan geleerd om voor de volgende keer als projectleider een project wel op goede banen te kunnen leiden.
-                    <br><br>
-                    
-                    <p6><b>6. ONDERZOEKEN:</b></p6><br>
-                    Voor PEE10 kreeg ik de opdracht van mijn team om een equalizer te bouwen. 
-                    Uit de requirement van de equalizer kwamen de volgende eisen:<br>
-                    ~ De situatie hierbij is dat we een equalizer willen maken met drie frequentiebanden, namelijk: laag, midden en hoog;<br>
-                    ~ De frequentieband laag regelt alle frequenties van 0 t/m 1 kHz;<br>
-                    ~ De frequentieband midden regelt alle frequenties van 1 t/m 4 kHz;<br>
-                    ~ De frequentieband hoog regelt alle frequenties van 4 t/m ∞ kHz;<br>
-                    ~ Hierbij willen wij de verschillende banden hoog of laag zetten.<br><br>
-                    Hieruit kon ik concluderen dat ik een 3 bands equalizer moest maken. 
-                    Er zijn op internet en in boeken veel circuits te vinden. 
-                    Hierbij vond ik de volgende eisen belangrijk bij een circuit. Hij is simpel, niet te veel componenten dan nodig, lage kosten en is te verbeteren als het nodig is.
-                    Met deze eisen ging ik zoeken naar circuits die aan deze eisen voldeden. Verder heb ik ook gekeken naar circuits over filters die ik bij ELE10 heb behandeld. 
-                    Daarbij kwam ik uit op één schakeling die voldeet aan alle eisen en die ik ook begreep om nodige aanpassingen te verrichten.
-                    <br><br>
-                    
-                    <p6><b>7. PROFESSIONALISEREN:</b></p6><br>
-                    Tijdens alle vakken heb ik mezelf onbewust lopen professionaliseren. Ik verbeterde hier mijn communicatie-, social- en planning skills. 
-                    Dit heeft geleid tot iemand die nu beter in projecten kan presteren. Ook is mijn woordenschat een vleugje aangevuld met elektrotechniek vakjargon. 
-                    Ik heb in dit schooljaar geleerd hoe ik deze vakjargon correct kan toepassen. Ook is mijn kennis in elektrotechniek sterk verbreed waarbij ik complexere circuits kan begrijpen en aan rekenen. 
-                    Ik verwacht dat deze compententie in de loop van tijd alleen nog maar zal verbeteren.
-                    <br><br>
-                    
-                    <p6><b>8. ADVISEREN:</b></p6><br>
-                    Op het gebied van adviseren ben ik niet de meest ervaren. 
-                    Wel heb ik geprobeerd om zo zinvolle en concrete adviezen te geven aan mede studenten of projectleden bijvoorbeeld bij het project. 
-                    Hierbij kwamen de meeste adviezen vanuit mijn eigen ervaring en kennis. Ik verwacht wel dat deze compententie in de toekomst verbeterd met opgebouwde kennis en ervaring in elektrotechniek.
-
-                </p2>
-        </div>
-
-        
-
-        
-    </body>
+  <main class="page-shell">
+    <header class="page-title"><h1>Competenties</h1></header>
+    <section class="content-card">
+      <span class="kicker">Ontwikkeling</span>
+      <h2>Professionele vaardigheden</h2>
+      <article><h3>1. Analyseren</h3><p>Deze competentie heb ik sterk ontwikkeld bij PEE20. De uitdaging was om een opdracht om te zetten naar ontwerpeisen. In het begin had ik daar moeite mee, maar door feedback kan ik een opdracht beter verdelen in functionele en niet-functionele eisen.</p></article>
+      <article><h3>2. Ontwerpen</h3><p>Voor PEE10 moest ik een equalizer ontwerpen. Daarbij heb ik eisen vertaald naar een schakeling, componentwaarden berekend, het circuit gesimuleerd in LTspice en daarna getest op een breadboard met functiegenerator en oscilloscoop.</p><p>Als het circuit correct werkt, kan het op een developmentboard of PCB gesoldeerd worden. Door vooraf een simpele layout te tekenen, voorkom je soldeerfouten en houd je overzicht.</p></article>
+      <article><h3>3. Realiseren</h3><p>Na analyseren, onderzoeken en ontwerpen wordt de unit gerealiseerd. Als de unittest is geslaagd, worden de units geïntegreerd. Communicatie en teamwork zijn hierbij belangrijk om tot een werkend eindproduct te komen.</p></article>
+      <article><h3>4. Beheren</h3><p>Bij PEE20 moest ik mijn softwarecode bijhouden met Bitbucket. Door regelmatig te committen ontstaat een duidelijke tijdlijn, waardoor je kunt zien hoe code zich ontwikkelt en waar problemen zijn ontstaan. Deze website is op een vergelijkbare manier gebouwd met GitHub.</p></article>
+      <article><h3>5. Managen</h3><p>Tijdens PEE10 heb ik geleerd hoe ik een project moet managen. Taken verdelen ging goed, maar de planning liep minder goed. Door feedback heb ik geleerd hoe ik de volgende keer als projectleider beter kan sturen.</p></article>
+      <article><h3>6. Onderzoeken</h3><p>Voor PEE10 kreeg ik de opdracht om een equalizer te bouwen met drie frequentiebanden: laag, midden en hoog. Ik heb gezocht naar circuits die simpel, betaalbaar en aanpasbaar waren. Uiteindelijk koos ik een schakeling die aan de eisen voldeed en die ik begreep.</p></article>
+      <article><h3>7. Professionaliseren</h3><p>Tijdens de vakken heb ik mijn communicatie, sociale vaardigheden en planning verbeterd. Ook is mijn elektrotechnische woordenschat gegroeid en kan ik complexere circuits beter begrijpen en berekenen.</p></article>
+      <article><h3>8. Adviseren</h3><p>Op het gebied van adviseren ben ik nog niet de meest ervaren, maar ik probeer zinvolle en concrete adviezen te geven aan medestudenten en projectleden op basis van mijn eigen ervaring en kennis.</p></article>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
 </html>

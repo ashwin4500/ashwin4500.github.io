@@ -1,55 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashwin PI Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home – Ashwin PI Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<nav class="navbar" aria-label="Hoofdnavigatie">
+  <a class="brand-dot" href="index.html" aria-label="Home">A</a>
+  <div class="nav-links">
+    <a href="index.html" data-label="Home"><span>H</span></a>
+    <a href="pie.html" data-label="PIE"><span>P</span></a>
+    <a href="compententies.html" data-label="Competenties"><span>C</span></a>
+    <a href="externe_activiteiten.html" data-label="Externe activiteiten"><span>E</span></a>
+    <a href="keuzevak.html" data-label="Keuzevak"><span>K</span></a>
+    <a href="presentatie.html" data-label="Presentatie"><span>Pr</span></a>
+    <a href="reflectie.html" data-label="Reflectie"><span>R</span></a>
+    <a href="reflectie_op_samenwerking.html" data-label="Samenwerking"><span>S</span></a>
+  </div>
+</nav>
 
-<!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="nav-left">Ashwin PI website</div>
-        <div class="nav-right">
-            <div class="dropdown">
-                <button class="dropdown-btn">Menu ▾</button>
-                <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="pie.html">PIE</a>
-                    <a href="compententies.html">Competenties</a>
-                    <a href="externe_activiteiten.html">Externe Activiteiten</a>
-                    <a href="keuzevak.html">Keuzevak</a>
-                    <a href="presentatie.html">Presentatie</a>
-                    <a href="reflectie.html">Reflectie</a>
-                    <a href="reflectie_op_samenwerking.html">Samenwerking</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-        <div class="Info">
-            <img class="mejpg" src="ME.jpg" alt="Photo">
-            <div class="Names">
-                <div class="Name">
-                    <p class="Name-text">Ashwin Nagesar</p>
-                </div>
-                <div class="Name-1">
-                    <p class="Name-text">1072698</p>
-                </div>
-                <div class="Name-2">
-                    <p class="Name-text">B Elektrotechniek VT</p>
-                </div>
-            </div>
-        </div>  
-
-        <!-- NEW HOME PAGE CONTENT -->
-        <div class="Home-page-info">
-            <p2>Ik ben Ashwin Nagesar, derdejaars student Elektrotechniek aan de Hogeschool Rotterdam. 
-                Tijdens mijn studie verdiep ik mij in zowel hardware als software binnen het vakgebied elektrotechniek, met een focus op het ontwerpen, analyseren en toepassen van elektronische systemen.
-            </p2>
-        </div>
-
-<script src="script.js"></script>
+  <main class="page-shell">
+    <section class="hero">
+      <img class="profile-photo" src="ME.jpg" alt="Foto van Ashwin Nagesar">
+      <div class="hero-text">
+        <span class="kicker">Elektrotechniek portfolio</span>
+        <h1 class="hero-title">Ashwin Nagesar</h1>
+        <p class="hero-meta">1072698</p>
+        <p class="hero-sub">B Elektrotechniek VT</p>
+        <p>Ik ben Ashwin Nagesar, derdejaars student Elektrotechniek aan de Hogeschool Rotterdam. Tijdens mijn studie verdiep ik mij in zowel hardware als software binnen het vakgebied elektrotechniek, met een focus op het ontwerpen, analyseren en toepassen van elektronische systemen.</p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
